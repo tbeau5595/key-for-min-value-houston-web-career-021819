@@ -7,4 +7,5 @@ def key_for_min_value(name_hash)
     items << value
   end
   sorted_items = items.sort
-  
+  name_hash.item(sorted_items[0])
+end
